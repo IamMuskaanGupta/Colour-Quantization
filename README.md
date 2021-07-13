@@ -1,8 +1,11 @@
 # Colour-Quantization
 Vector Quantization (VQ) is an efficient technique for data compression. It has recently emerged as a powerful and efficient technique for digital speech and image coding.
+
 The key to VQ is the good codebook. Good codebook design leads to less distortion in reconstructed image. 
 The goal of this process is data compression to minimize communication channel capacity or digital storage memory requirements while maintaining an acceptable fidelity level of the data. 
+
 Vector Quantization works by dividing a large set of points (vectors) into groups having approximately the same number of points closest to them. Each group is represented by its centroid point, as in k-means and some other clustering algorithms.
+
 Color quantization is a process that reduces the number of distinct colors used in an image with the aim that the new image should be as visually similar as possible to the original image. In this we map from high resolution to lower resolution.
 In the image processing literature, the codebook obtained from K-means (the cluster centers) is called the color palette.
 
